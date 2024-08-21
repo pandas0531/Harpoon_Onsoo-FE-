@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BareunBatang';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+.container{
+    /* display: flex; */
+    position: relative;
+}
+
+.text-top{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 20px;
+    justify-content: space-between; /* 이 줄을 추가했습니다 */
+    width: 70%; /* 전체 너비를 차지하도록 설정 */
+}
+
+.text-category{
+    display: flex;
+    margin-top: 30px;
+
+    margin-left: 120px;
+
+    font-family: "Pretendard-Regular";
+    font-size: 38px;
+    color: #050505;
+}   
+
+.text-problem{
+    display: flex;
+    margin-top: 30px;
+
+    font-family: "Pretendard-Regular";
+    font-size: 38px;
+    color: #050505;
+}
+
+.text{
+    font-family: "Pretendard-Regular";
+    font-size: 38px;
+    color: #050505;
+}
+
+.horizontal-bar{
+    /* width: 800px; */
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+.vertical-bar{
+    width: 1px;
+    height: 75%;
+    margin-left: 45%;
+    background-color: black;
+    border: none;
+}
+
+.category-box{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+    padding: 20px;
+    
+    width: 30%;
+    height: 73%;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    border-color: black;
+    background-color: #FFFFFF;
+    
+    justify-content: center;
+    margin-left: 7%;
+    margin-top: -39%;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+    margin-top: 10%;
+    text-align: center;    
+    background-color: #FFFFFF;
+    border: 5px solid black;
+
+    font-family: "BareunBatang";
+    font-size: 25px;
+}
