@@ -86,7 +86,7 @@ body{
 }
 
 .category-box{
-
+/* 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -102,19 +102,25 @@ body{
     
     justify-content: center;
     margin-left: 7%;
-    margin-top: -40%;
+    margin-top: -40%; */
+
+    display: flex;
+
 }
 
 .item {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
     height: 25%;
     margin-top: 23%;
     text-align: center;    
     background-color: #FFFFFF;
-    /* border: 5px solid black; */
+    position: relative;
 
     font-family: "BareunBatang";
-    font-size: 25px;
+    font-size: 25px; */
+
+
 }
+
