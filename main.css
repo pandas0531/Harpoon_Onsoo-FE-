@@ -31,7 +31,6 @@ body{
 }
 
 .container{
-    /* display: flex; */
     position: relative;
 }
 
@@ -85,42 +84,22 @@ body{
     border: none;
 }
 
-.category-box{
-/* 
+.category-grid{
     display: grid;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 50px;
-    padding: 20px;
-    
-    width: 30%;
-    height: 70%;
-    border: 1.5px solid black;
-    border-radius: 30px;
-    border-color: black;
-    background-color: #FFFFFF;
-    
-    justify-content: center;
-    margin-left: 7%;
-    margin-top: -40%; */
-
-    display: flex;
+    float: left;
 
 }
 
-.item {
-    /* display: flex;
+.category-text {
+    display: flex;
+    border: 1px solid black;
     align-items: center;
     justify-content: center;
-    height: 25%;
-    margin-top: 23%;
-    text-align: center;    
-    background-color: #FFFFFF;
-    position: relative;
-
-    font-family: "BareunBatang";
-    font-size: 25px; */
-
-
+    padding: 5%;
 }
-
