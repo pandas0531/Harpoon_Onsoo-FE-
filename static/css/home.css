@@ -29,9 +29,25 @@
 body{
     background-color: #FFFFFF;
 }
+.menu-background{
+    display: flex;
+    margin: -10px;
+    justify-content: flex-start; /* 로고 이미지가 왼쪽에 정렬되도록 설정 */
+    background-color: #F6F6F6;
+    width: 100%;
+    padding-right: 18px;
+    height: 75px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
 
-.container{
-    position: relative;
+.menu-img{
+    width: 8%;
+    height: 10.5%;
+    margin-top: -70px;
+}
+
+.menu-img:hover{
+    cursor: pointer;
 }
 
 .text-top{
@@ -39,8 +55,8 @@ body{
     flex-direction: row;
     position: relative;
     margin-top: 20px;
-    justify-content: space-between; /* 이 줄을 추가했습니다 */
-    width: 70%; /* 전체 너비를 차지하도록 설정 */
+    justify-content: space-between; 
+    width: 70%; 
 }
 
 .text-category{
@@ -86,20 +102,30 @@ body{
 
 .category-grid{
     display: grid;
-    width: 50%;
-    margin-top: 15%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 40%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     padding: 0px;
     grid-template-columns: repeat(2, 1fr);
     float: left;
-
 }
 
 .category-text {
+    border-radius: 5px;
     display: flex;
     border: 1px solid black;
     align-items: center;
     justify-content: center;
-    padding: 5%;
+    padding: 3%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: "Pretendard-Regular";
+    font-size: 20px;
+    color: #050505;
+}
+
+.category-text:hover{
+    cursor: pointer;
 }
