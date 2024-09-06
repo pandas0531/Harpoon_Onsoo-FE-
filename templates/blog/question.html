@@ -3,11 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Onsoo - 수학을 켜다 / 문제</title>
+    <title>Onsoo - 문제 페이지</title>
+    <link href="../../static/css/question.css" rel="stylesheet">
 </head>
 <body>
-    <h1>
-        
-    </h1>
+
+    <!-- Header -->
+    <nav>
+        <div class="menu-background"></div>
+        <img class="menu-img" onclick="location.href='../../templates/blog/home.html'" src="../../static/img/Onsoo_Logo.png" alt="Onsoo - Logo">
+        <h1 class="menu-login" onclick="location.href='../../templates/auth/login.html'">로그인</h1>
+        <!--css나 이미지에는 ../../로 경로로 지정해주자-->
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        Category > category #1 > problem #1
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Image Section -->
+        <div class="image-section">
+            <img src="../../static/img/index.png" alt="문제 이미지" class="problem-img">
+        </div>
+
+        <!-- Problem and Answer Section -->
+        <div class="content-section">
+            <h1>철수와 영희의 달리기</h1>
+            <p>철수와 영희는 오른쪽과 같은 운동장에서 달리기 경주를 하려고 한다.<br>
+               철수는 A지점부터 10km/h의 속도로 영희보다 30초 먼저 출발하고,<br>
+               영희는 B지점부터 철수보다 30초 뒤에 9.5km/h의 속도로 달리기 시작한다고 할 때 몇 초 뒤에 철수와 영희가 만나는가?</p>
+            <h3>answer</h3>
+            <form class="answer-form">
+                <input type="text" placeholder="답안을 입력하세요" class="answer-input">
+                <button type="submit" class="submit-btn">입력</button>
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>
