@@ -97,19 +97,27 @@ body{
     color: #050505;
 }
 
-.horizontal-bar{
-    /* width: 800px; */
+.horizontal-bar {
     height: 1px;
     background-color: black;
     border: none;
 }
 
-.vertical-bar{
+/* .vertical-bar {
     width: 1px;
     height: 75%;
     margin-left: 45%;
     background-color: black;
     border: none;
+} */
+
+.vertical-bar {
+    width: 1px;
+    height: 600px; /* 높이를 충분히 크게 설정하여 화면에 표시 */
+    position: absolute; /* 위치를 고정하여 레이아웃에 영향받지 않게 설정 */
+    top: 250px; /* 상단에서 시작하는 위치 조정 */
+    left: 46.5%; /* 왼쪽에서의 위치 조정 */
+    background-color: black;
 }
 
 .category-grid{
@@ -144,14 +152,6 @@ body{
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in-out; 
 }
-
-/* 
-.problem-recom-container {
-    display: flex;
-    flex-direction: column;
-    margin-right: 50px;
-    margin-top: 20px;
-} */
 
 .problem-recom-container {
     display: flex;
