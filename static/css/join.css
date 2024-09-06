@@ -23,6 +23,40 @@ body{
     background-color: #FFFFFF;
 }
 
+.menu-background{
+    display: flex;
+    margin: -10px;
+    justify-content: flex-start; /* 로고 이미지가 왼쪽에 정렬되도록 설정 */
+    background-color: #F6F6F6;
+    width: 100%;
+    padding-right: 18px;
+    height: 75px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.menu-img{
+    width: 8%;
+    height: 10.5%;
+    margin-top: -70px;
+}
+
+.menu-img:hover{
+    cursor: pointer;
+}
+
+.menu-login{
+    font-family: 'Pretendard-Regular';
+    float: right;
+    opacity: 50%;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.menu-login:hover{
+    cursor: pointer;
+}
+
 .container{
     display: flex;
     flex-direction: column;

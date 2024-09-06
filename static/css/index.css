@@ -37,11 +37,24 @@ body{
     cursor: pointer;
 }
 
+.menu-login{
+    font-family: 'Pretendard-Regular';
+    float: right;
+    opacity: 50%;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.menu-login:hover{
+    cursor: pointer;
+}
+
 .text-main{
     font-family: "Pretendard-Bold";
     font-size: 40px;
     margin-left: 100px;
-    margin-top: 140px;
+    margin-top: 120px;
     line-height: 30px;
 }
 

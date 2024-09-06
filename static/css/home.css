@@ -50,6 +50,19 @@ body{
     cursor: pointer;
 }
 
+.menu-login{
+    font-family: 'Pretendard-Regular';
+    float: right;
+    opacity: 50%;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.menu-login:hover{
+    cursor: pointer;
+}
+
 .text-top{
     display: flex;
     flex-direction: row;
