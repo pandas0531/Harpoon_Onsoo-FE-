@@ -56,14 +56,14 @@ body{
     position: relative;
     margin-top: 20px;
     justify-content: space-between; 
-    width: 70%; 
+    width: 60%; 
 }
 
 .text-category{
     display: flex;
     margin-top: 30px;
 
-    margin-left: 120px;
+    margin-left: 50px;
 
     font-family: "Pretendard-Regular";
     font-size: 38px;
@@ -73,7 +73,6 @@ body{
 .text-problem{
     display: flex;
     margin-top: 30px;
-
     font-family: "Pretendard-Regular";
     font-size: 38px;
     color: #050505;
@@ -104,7 +103,7 @@ body{
     display: grid;
     width: 40%;
     height: 10%;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 3%;
     margin-right: 3%;
     padding: 0px;
@@ -128,4 +127,65 @@ body{
 
 .category-text:hover{
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out; 
+}
+
+/* 
+.problem-recom-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-top: 20px;
+} */
+
+.problem-recom-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48%;
+    margin-top: -42%;
+    padding: 0 20px;
+}
+
+
+.problem-recom-easy{
+    margin-top: 30px;
+}
+
+.problem-recom-hard {
+    margin-top: 100px;
+}
+
+.problem-recom-title {
+    font-family: "Pretendard-Bold";
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.problem-recom-box {
+    border-radius: 20px;
+    padding: 15px;
+    padding-bottom: 50px;
+    background-color: #cbcbcb;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.problem-recom-box:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 1);
+    transition: 0.5s ease-in-out; 
+}
+
+.problem-title {
+    font-family: "Pretendard-SemiBold";
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.problem-description {
+    font-family: "Pretendard-Regular";
+    font-size: 16px;
+    color: #333;
 }
