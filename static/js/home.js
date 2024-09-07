@@ -5,4 +5,5 @@ function selectCategory(category) {
 
 function jscheck(text){
     console.log(text)
+    location.href="category.html"
 }
