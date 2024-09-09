@@ -63,3 +63,73 @@ body{
 .menu-login:hover{
     cursor: pointer;
 }
+
+.category-title{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.horizontal-bar {
+    height: 0.5px;
+    background-color: black;
+    border: none;
+}
+
+.question-table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: 'Pretendard-Regular';
+}
+
+.question-row {
+    display: flex;
+    align-items: center;
+    border: 1px solid #aeaeae;
+    padding: 15px;
+    margin: 10px 0;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.question-row:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out; 
+}
+
+.question-number {
+    width: 8%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.question-title {
+    width: 80%;
+    padding-left: 10px;
+}
+
+.question-status {
+    width: 8%;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.correct {
+    background-color: #32cd32;
+    color: white;
+}
+
+.pending {
+    background-color: #d3d3d3;
+    color: black;
+}
+
+.wrong {
+    background-color: #ff4d4d;
+    color: white;
+}
