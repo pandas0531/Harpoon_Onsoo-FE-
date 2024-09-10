@@ -78,15 +78,12 @@ body{
     cursor: pointer;
 }
 
-
-/* Breadcrumb */
 .location{
     margin: 20px;
     font-size: 14px;
     color: #888888;
 }
 
-/* Main Content */
 .container {
     display: flex;
     justify-content: space-between;
@@ -106,23 +103,40 @@ body{
     width: 55%;
 }
 
-.content-section h1 {
-    font-size: 24px;
+.horizontal-bar {
+    height: 0.5px;
+    width: 80%;
+    margin-left: 0px;
+    background-color: rgb(95, 95, 95);
+}
+
+.problem-title{
+    font-family: 'Pretendard-Bold';
+    font-size: 35px;
+}
+
+.problem-context{
+    font-family: 'Pretendard-Regular';
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 2;
+    width: 80%;
+}
+
+.answer{
+    position: absolute; /* 자식 요소를 절대 위치로 설정 */
+    bottom: 100px; /* 부모 요소의 바닥에 위치시킴 */
+    font-family: 'Pretendard-Regular'; /* 필요한 폰트 설정 */
+    font-size: 20px; /* 필요한 폰트 크기 설정 */
+}
+
+.problem-answer{
+    font-family: 'Pretendard-SemiBold';
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
-.content-section p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 40px;
-}
-
-.content-section h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-/* Answer Form */
 .answer-form {
     display: flex;
     align-items: center;
@@ -130,25 +144,36 @@ body{
 }
 
 .answer-input {
-    width: 250px;
+    width: 550px;
     height: 40px;
     padding: 0 10px;
     font-size: 16px;
-    border: 1px solid #888888;
-    border-radius: 5px;
+    border: 1px solid #000000;
+    border-radius: 10px;
 }
 
 .submit-btn {
-    width: 80px;
+    width: 130px;
     height: 40px;
     background-color: #000000;
     color: #FFFFFF;
     font-size: 16px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 .submit-btn:hover {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.message {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.correct {
+    color: #0066FF;
+}
+.wrong {
+    color: #F40D0D;
 }
