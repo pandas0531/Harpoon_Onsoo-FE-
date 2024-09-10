@@ -30,6 +30,19 @@ body{
     background-color: #FFFFFF;
 }
 
+.menu-mypage{
+    font-family: 'Pretendard-Regular';
+    float: right;
+    opacity: 50%;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-right: 90px;
+}
+
+.menu-mypage:hover{
+    cursor: pointer;
+}
+
 
 .menu-background{
     display: flex;
