@@ -16,10 +16,12 @@ body{
     background-color: #FFFFFF;
 }
 
+
+
 .menu-background{
     display: flex;
     margin: -10px;
-    justify-content: flex-start; /* 로고 이미지가 왼쪽에 정렬되도록 설정 */
+    justify-content: flex-start;
     background-color: #F6F6F6;
     width: 100%;
     padding-right: 18px;
