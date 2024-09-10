@@ -65,6 +65,20 @@ body{
     cursor: pointer;
 }
 
+.menu-category{
+    font-family: 'Pretendard-Regular';
+    float: left;
+    opacity: 50%;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+.menu-category:hover{
+    cursor: pointer;
+}
+
+
 /* Breadcrumb */
 .location{
     margin: 20px;
