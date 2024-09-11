@@ -47,7 +47,7 @@ body{
 .menu-background{
     display: flex;
     margin: -10px;
-    justify-content: flex-start; /* 로고 이미지가 왼쪽에 정렬되도록 설정 */
+    justify-content: flex-start;
     background-color: #F6F6F6;
     width: 100%;
     padding-right: 18px;
@@ -138,10 +138,10 @@ body{
 }
 
 .answer{
-    position: absolute; /* 자식 요소를 절대 위치로 설정 */
-    bottom: 100px; /* 부모 요소의 바닥에 위치시킴 */
-    font-family: 'Pretendard-Regular'; /* 필요한 폰트 설정 */
-    font-size: 20px; /* 필요한 폰트 크기 설정 */
+    position: absolute;
+    bottom: 100px; 
+    font-family: 'Pretendard-Regular';
+    font-size: 20px; 
 }
 
 .problem-answer{

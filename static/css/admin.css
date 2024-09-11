@@ -39,7 +39,7 @@ body{
 .menu-background{
     display: flex;
     margin: -10px;
-    justify-content: flex-start; /* 로고 이미지가 왼쪽에 강간되도록 설정 */
+    justify-content: flex-start;
     background-color: #F6F6F6;
     width: 100%;
     padding-right: 18px;
@@ -124,7 +124,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* 이미지가 넘칠 경우 숨김 처리 */
+    overflow: hidden;
     position: relative;
 }
 

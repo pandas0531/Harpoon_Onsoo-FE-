@@ -4,7 +4,6 @@ window.onload = function() {
     const imagePreview = document.getElementById('image-preview');
     const imageDisplay = document.getElementById('image-display');
 
-    // 이미지 미리보기 로직
     imageInput.addEventListener('change', function() {
         const file = this.files[0];
 
@@ -13,18 +12,17 @@ window.onload = function() {
             reader.onload = function(event) {
                 imageDisplay.setAttribute('src', event.target.result);
                 imageDisplay.style.display = 'block';
-                imagePreview.querySelector('span').style.display = 'none'; // Hide "이미지 미리보기" text
+                imagePreview.querySelector('span').style.display = 'none';
             };
-            reader.readAsDataURL(file); // Convert image to base64 URL
+            reader.readAsDataURL(file);
         } else {
             imageDisplay.style.display = 'none';
-            imagePreview.querySelector('span').style.display = 'block'; // Show "이미지 미리보기" text if no file is selected
+            imagePreview.querySelector('span').style.display = 'block';
         }
     });
 
-    // 폼 제출 시 입력값 출력
     form.addEventListener('submit', function(event) {
-        event.preventDefault(); // 폼이 실제로 제출되는 것을 막음
+        event.preventDefault();
 
         const title = document.getElementById('question-title').value;
         const answer = document.getElementById('question-answer').value;
